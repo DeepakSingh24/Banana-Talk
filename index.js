@@ -2,7 +2,7 @@ function errorHandler(err){
     console.log('some error occured');
     alert('some error occured',err);
 }
-let serviceUrl='http://api.funtranslations.com/translate/minion.json?text=';
+let serviceUrl='https://api.funtranslations.com/translate/minion.json?text=';
 function constructUrl(textToTranslate){
     return serviceUrl+textToTranslate;
 }
